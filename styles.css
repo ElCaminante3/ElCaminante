@@ -1,0 +1,83 @@
+/* Estilo personalizado para la pantalla de presentación con imagen de fondo */
+header {
+    padding-top: 17%;
+    padding-bottom: 17%;
+    background-image: url('images/Presentación.jpeg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff; /* Texto en blanco para contraste */
+}
+
+/* Aumentar el tamaño del texto en la cabecera */
+header h1 {
+    font-size: 3rem;
+    color: #fff; /* Texto en blanco para contraste */
+}
+
+header .lead {
+    font-size: 1.5rem;
+    color: #fff; /* Texto en blanco para contraste */
+}
+#services{
+    background-color: #4879b1;
+    color: #fff; /* Texto en blanco para contraste */
+}
+#gallery{
+    background-color: #2E8B57;
+    color: #fff; /* Texto en blanco para contraste */
+}
+#portfolioCarousel img {
+    max-height: 500px;
+    width: 100%;
+}
+/* Color de fondo para la sección de Contacto */
+#contact {
+    background-color: #2E8B57; /* Verde oscuro para la sección Contacto */
+    color: #fff; /* Texto en blanco para contraste */
+}
+/* Ajuste de color para la barra de navegación */
+.navbar {
+    background-color: #4879b1; /* Azul oscuro para la barra de navegación */
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card {
+    background-color: #ddddddb9;
+  }
+  
+  .card {
+    height: 390px;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
